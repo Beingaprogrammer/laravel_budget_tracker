@@ -41,5 +41,16 @@ Analyse Monthly Report
 filter transactions by category
 
 
+<!-- Feature -->
+Add in .env file then the budget limit exceed then notification send
+MAIL_MAILER=smtp
+MAIL_HOST="your host"
+MAIL_PORT="your port"
+MAIL_USERNAME="yourusername"
+MAIL_PASSWORD="pass"
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="test@gmail.com"
+MAIL_FROM_NAME="${APP_NAME}"
+
 
 
